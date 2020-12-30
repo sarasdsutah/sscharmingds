@@ -31,7 +31,7 @@ body { background: lightpink; }
     margin-left: 30px;
 }
 
-.nav-menu li a { color: rgb(241, 177, 177); text-decoration: none; font-family: "Verdana", sans-serif; }
+.nav-menu li a { color: rgb(226, 139, 153); text-decoration: none; font-family: "Verdana", sans-serif; }
 
 .nav-menu li a:hover {
     color: rgb(255, 154, 171);
@@ -80,4 +80,15 @@ body { background: lightpink; }
     line-height: 2;
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo {
+    height: 1em;
+    margin-left:1ex;
+
+}
+
+a { 
+    color:white;
+    text-decoration: none;
 }
