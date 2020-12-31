@@ -45,13 +45,17 @@ body { background: lightpink; }
     margin-right:125px;
     color:white;
     align-items: center;
-    display: block;
     text-align: justify;
     line-height: 2;
     text-indent: 2ex;
     font-size: 25px;
     font-family: 'Sansita Swashed', cursive;
+    display: flex;
     
+}
+.middle img {
+    height: 10em;
+    margin-right: 30px;
 }
 
 .section { 
@@ -74,13 +78,19 @@ body { background: lightpink; }
 .section p {
     margin-left: 125px ;
     margin-right:125px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     color:rgb(226, 139, 153);
     display: block;
     text-align: justify;
     line-height: 2;
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+.section img{
+    height: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .logo {
@@ -92,4 +102,133 @@ body { background: lightpink; }
 a { 
     color:white;
     text-decoration: none;
+}
+
+.intro {
+    background: lightpink;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.intro h1 {
+    padding-top: 20px;
+    margin-top: 50px;
+    color:white;
+    text-align: justify;
+    line-height: 2;
+    text-indent: 0ex;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.intro p {
+    padding-bottom: 10px;
+    color:white;
+    display: block;
+    text-align: justify;
+    line-height: 2;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.intro img{
+    height: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-right: 30px;
+    height: 10em;
+}
+.tab {
+    background:rgb(238, 238, 238);
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px; 
+    display:flex;
+    justify-content: center;
+    
+}
+.tab a {
+    width: 30%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 0.7ex;
+    padding-bottom: 0.7ex;
+    border-top-left-radius: 1ex;
+    border-top-right-radius: 1ex;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background: lightpink;
+}
+.tab a:hover {
+        color: rgb(255, 154, 171);
+        text-decoration: underline;
+}
+
+.tab .unselected {
+    background: rgb(247, 209, 215);
+
+}
+     
+.intro h2 {
+    color:white;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.intro h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.intro h3 time {
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    float:right;
+}
+
+.intro li {
+    color: white;
+    margin-bottom: 20px;
+    font-size: large;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.intro ul {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.image-right {
+    display: flex;
+    
+}
+
+.image-right img {
+    margin-left: 30px;
+}
+
+.image-left {
+    margin-top: 40px;
+    display: flex;
+}
+
+.image-left img {
+    margin-right: 30px;
+    height: 15em;
+}
+
+.image-link{
+    display: flex;
+    align-items: baseline;
+}
+
+.image-link img {
+    margin-left: 3px;
+    height:1em;
 }
