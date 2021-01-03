@@ -18,12 +18,17 @@ body { background: lightpink; }
     display: flex;
     font-size: 300%;
     font-family: 'Lobster', cursive;
-} 
+}
+
+
 
 
 .nav-menu {
-    height: 4em; padding: 1em;
-    display: flex; justify-content: flex-end; align-items: center;
+    height: 4em; 
+    padding: 1em;
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
 }
 
 .nav-menu li {
@@ -31,7 +36,9 @@ body { background: lightpink; }
     margin-left: 30px;
 }
 
-.nav-menu li a { color: rgb(226, 139, 153); text-decoration: none; font-family: "Verdana", sans-serif; }
+.nav-menu li a { color: rgb(226, 139, 153); 
+    text-decoration: none; 
+    font-family: "Verdana", sans-serif; }
 
 .nav-menu li a:hover {
     color: rgb(255, 154, 171);
@@ -56,14 +63,41 @@ body { background: lightpink; }
 .middle img {
     height: 10em;
     margin-right: 30px;
+
 }
+
+.dayword {
+    background:whitesmoke;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 1.5ex;
+    padding-bottom: 1.5ex;
+    align-items: baseline;
+    display: flex;
+   
+}   
+
+.dayword h1 {
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 90%;
+    margin-right: 3em;
+    flex-shrink: 0;
+
+}
+
+.dayword p {
+    text-align: justify;
+    font-family: sans-serif;
+}
+
 
 .section { 
     background: white;
-    }
+    padding-top: 1px;
+}
 
 .section h2 {
-    padding-top: 20px;
     margin-top: 50px;
     margin-left: 125px ;
     margin-right:125px;
@@ -147,6 +181,10 @@ a {
     justify-content: center;
     
 }
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
 .tab a {
     width: 30%;
     text-align: center;
@@ -163,7 +201,6 @@ a {
 }
 .tab a:hover {
         color: rgb(255, 154, 171);
-        text-decoration: underline;
 }
 
 .tab .unselected {
@@ -232,4 +269,10 @@ a {
 .image-link img {
     margin-left: 3px;
     height:1em;
+}
+
+.doc_link {
+
+    font-family: sans-serif;
+    text-decoration: underline;
 }
